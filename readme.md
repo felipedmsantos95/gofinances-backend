@@ -1,5 +1,46 @@
+# GoFinances Backend
+
+<p align="center">
+    <a href="readme_en.md">English</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="readme.md">Português</a>&nbsp;&nbsp;&nbsp;
+</p>
+
+## Sobre
+
+Backend da aplicação Gofinances em Node.js para gestão de transações com envio de arquivos por formulário. O repositório do frontend está disponível [aqui](https://github.com/felipedmsantos95/gofinances-frontend)
+
+## Tecnologias utilizadas
+
+- Node.js
+
+## Requisitos
+
+Para executar o projeto é necessário ter os seguintes requisitos instalados no sistema:
+
+- Node 12.x ou superior
+- Yarn 1.21 ou superior
+
+## Executando o projeto
+
+### Clonando o projeto
+
+```bash
+$ git clone https://github.com/felipedmsantos95/gofinances-backend
+$ cd gofinances-backend
+```
+
+### Scripts para execução do projeto
+
+Dentro do diretório do projeto pela primeira vez, você deve executar o comando `yarn` para instalar as dependências, então será possível rodar os seguintes scripts:
+
+#### `yarn dev:server`
+
+Executa o backend em modo de desenvolvimento.<br />
+Você poderá visualizar quaisquer erros no console.
+
+
 <h3 align="center">
-  Enunciado desafio 06: Banco de dados e upload de arquivos no Node.js
+  Enunciado do desafio proposto
 </h3>
 
 
