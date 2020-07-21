@@ -11,7 +11,7 @@ Backend da aplicação Gofinances em Node.js para gestão de transações com en
 
 ## Tecnologias utilizadas
 
-- Node.js
+- Node.js para o back-end
 
 ## Requisitos
 
