@@ -7,7 +7,7 @@
 
 ## Sobre
 
-Backend da aplicação Gofinances em Node.js para gestão de transações com envio de arquivos por formulário. O repositório do frontend está disponível [aqui](https://github.com/felipedmsantos95/gofinances-frontend)
+Backend da aplicação Gofinances em Node.js para gestão de transações com envio de arquivos por formulário. O repositório do frontend está disponível [aqui](https://github.com/felipedmsantos95/gofinances-frontend).
 
 ## Tecnologias utilizadas
 
