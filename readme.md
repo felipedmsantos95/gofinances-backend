@@ -40,7 +40,7 @@ Dentro do diretório do projeto pela primeira vez, você deve se certificar que 
 {
   "type": "postgres",
   "host": "address_of_your_host",
-  "port": number_of_your_port,
+  "port": number_of_postgres_port,
   "username": "your_postgres_user",
   "password": "your_password",
   "database": "gostack_desafio06",
