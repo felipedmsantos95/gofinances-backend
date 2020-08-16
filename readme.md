@@ -11,14 +11,17 @@ Backend da aplicação Gofinances em Node.js para gestão de transações com en
 
 ## Tecnologias utilizadas
 
-- Node.js
+- [Node.js](https://nodejs.org/en/)
+- Banco de dados [PostgreSQL](https://www.postgresql.org/)
+- Mapedor de objetos relacionais [TypeORM](https://typeorm.io/#/)
 
 ## Requisitos
 
 Para executar o projeto é necessário ter os seguintes requisitos instalados no sistema:
 
-- Node 12.x ou superior
-- Yarn 1.21 ou superior
+- [Node.js](https://nodejs.org/en/) 12.x ou superior
+- [Yarn](https://yarnpkg.com/) 1.21 ou superior
+- Banco de dados [PostgreSQL](https://www.postgresql.org/) 11.x ou superior
 
 ## Executando o projeto
 
@@ -31,12 +34,40 @@ $ cd gofinances-backend
 
 ### Scripts para execução do projeto
 
-Dentro do diretório do projeto pela primeira vez, você deve executar o comando `yarn` para instalar as dependências, então será possível rodar os seguintes scripts:
+Dentro do diretório do projeto pela primeira vez, você deve se certificar que o serviço PostgreSQL está sendo executado e deve criar um banco de dados chamado `gostack_desafio06`. No arquivo `./ormconfig.json` é possivel alterar as configurações de porta, usuario e senha do PostgreSQL de acordo com o seu contexto.
+
+```json
+{
+  "type": "postgres",
+  "host": "address_of_your_host",
+  "port": number_of_your_port,
+  "username": "your_postgres_user",
+  "password": "your_password",
+  "database": "gostack_desafio09",
+  "entities": ["./src/models/*.ts"],
+  "migrations": ["./src/database/migrations/*.ts"],
+  "cli": {
+    "migrationsDir": "./src/database/migrations"
+  }
+}
+```
+
+Com as configurações feitas de forma correnta, pode-se utilizar o comando `yarn` para instalar as dependências, então os seguintes scripts podem ser executados:
+
+#### `yarn typeorm migration:run`
+
+Configura os relacionamentos criados no TypeORM no PostgreSQL.<br />
+Você poderá visualizar quaisquer erros no console.
 
 #### `yarn dev:server`
 
 Executa o backend em modo de desenvolvimento.<br />
 Você poderá visualizar quaisquer erros no console.
+
+#### `yarn test`
+
+Executa os scripts de testes realizados.<br />
+PS: Para este comando é necessário ter criado o banco de dados `gostack_desafio06_tests`. Você poderá visualizar quaisquer erros no console.
 
 
 <h3 align="center">
