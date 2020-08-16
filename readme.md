@@ -43,7 +43,7 @@ Dentro do diretório do projeto pela primeira vez, você deve se certificar que 
   "port": number_of_your_port,
   "username": "your_postgres_user",
   "password": "your_password",
-  "database": "gostack_desafio09",
+  "database": "gostack_desafio06",
   "entities": ["./src/models/*.ts"],
   "migrations": ["./src/database/migrations/*.ts"],
   "cli": {
