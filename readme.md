@@ -7,7 +7,7 @@
 
 ## Sobre
 
-Backend da aplicação Gofinances em Node.js para gestão de transações com envio de arquivos por formulário. O repositório do frontend está disponível [aqui](https://github.com/felipedmsantos95/gofinances-frontend).
+Backend da aplicação Gofinances em Node.js para gestão de transações com envio de arquivos por formulário. O repositório do frontend está disponível [aqui](https://github.com/felipedmsantos95/gofinances-frontend). Este é o sexto desafio proposto no bootcamp GoStack da [Rocketseat](https://github.com/Rocketseat).
 
 ## Tecnologias utilizadas
 
